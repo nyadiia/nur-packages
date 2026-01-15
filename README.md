@@ -12,3 +12,6 @@ Uncomment this if you use travis:
 -->
 [![Cachix Cache](https://img.shields.io/badge/nyadiia-nur?label=cachix&color=blue)](https://nyadiia-nur.cachix.org)
 
+## package sources
+
+uses [nvfetcher](https://github.com/berberman/nvfetcher) for automatic source updates. add packages to `nvfetcher.toml`, sources get generated to `_sources/generated.nix`, github actions creates PRs weekly when updates are available.
