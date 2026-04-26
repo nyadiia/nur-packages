@@ -8,10 +8,10 @@
 {
   cockpit-machines = {
     pname = "cockpit-machines";
-    version = "351";
+    version = "352";
     src = fetchTarball {
-      url = "https://github.com/cockpit-project/cockpit-machines/releases/download/351/cockpit-machines-351.tar.xz";
-      sha256 = "sha256-/XfW77etlCq9o7nUDkHXJOpMIWVvSm/iGovjZBo/jwc=";
+      url = "https://github.com/cockpit-project/cockpit-machines/releases/download/352/cockpit-machines-352.tar.xz";
+      sha256 = "sha256-1jM1W5o4OWwkMozC+axwQwuDNV0qZ2fekzlftnrnaHA=";
     };
   };
 }
